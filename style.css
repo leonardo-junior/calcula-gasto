@@ -5,6 +5,7 @@ body {
 
 header {
     font: normal 10pt Arial;
+    text-align: center;
 }
 
 section {
@@ -21,6 +22,7 @@ div {
 }
 
 footer{
+    text-align: center;
     font: normal 10pt Arial;
     font-style: italic;
     color: rgb(12, 12, 95);
