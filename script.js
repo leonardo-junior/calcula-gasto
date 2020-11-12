@@ -39,7 +39,7 @@ bCalculateTotal.onclick = function () {
         result.innerText = `A pessoa 1 deve pagar ${valorFinalPessoa1} e a pessoa 2 deve pagar ${valorFinalPessoa2}`;
     } else if (valorFinalPessoa1 < 0) {
         result.innerText = `A pessoa 1 deve receber da Pessoa 2 ${valorFinalPessoa1 * -1} e a pessoa 2 deve pagar de contas ${valorFinalPessoa2 + valorFinalPessoa1}`;
-    } else if (valorFinalPessoa1 < 0) {
-        result.innerText = `A pessoa 1 deve receber da Pessoa 2 ${valorFinalPessoa2 * -1} e a pessoa 2 deve pagar de contas ${valorFinalPessoa1 + valorFinalPessoa1}`;
+    } else if (valorFinalPessoa2 < 0) {
+        result.innerText = `A pessoa 1 deve receber da Pessoa 2 ${valorFinalPessoa2 * -1} e a pessoa 2 deve pagar de contas ${valorFinalPessoa1 + valorFinalPessoa2}`;
     }
 };
